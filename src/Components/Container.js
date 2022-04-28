@@ -21,7 +21,7 @@ const Container = () => {
             interestRate: state.interestRate,
             loanTerm: state.loanTerm,
             totalCredit: totalCredit,
-            MontlyPaymentAmount: paymentAmount.toFixed(2),
+            montlyPaymentAmount: paymentAmount.toFixed(2),
         });
     };
 

@@ -27,7 +27,7 @@ const ShortList = ({ result }) => {
                     <tr>
                         <td>{result.creditAmount} TL</td>
                         <td>{result.interestRate}</td>
-                        <td>{result.MontlyPaymentAmount} TL</td>
+                        <td>{result.montlyPaymentAmount} TL</td>
                     </tr>
                 </tbody>
             </table>
