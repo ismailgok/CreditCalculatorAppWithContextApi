@@ -30,7 +30,7 @@ const Form = ({ onChangeInput,onClickButton }) => {
                 value={state.loanTerm}
                 onChange={onChangeInput}
             >
-                <option value={12}>12</option>
+                <option value="12">12</option>
                 <option value="24">24</option>
                 <option value="36">36</option>
             </select>
